@@ -1,0 +1,20 @@
+.client-title h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+}
+.client-img {
+  margin: 0 50px;
+  display: inline-block;
+}
+.client-logo{
+    margin: 50px 0;
+    overflow: hidden;
+    width: 100%;
+}
+.clients{
+    margin-bottom: 80px;
+    max-width: 100%;
+    padding: 0 15px;
+    text-align: center;
+}

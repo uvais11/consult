@@ -1,0 +1,49 @@
+.team-heading h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+}
+.team-heading {
+  margin-bottom: 50px;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.team-item {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.team-item .team-img {
+  position: relative;
+  height: 355px;
+}
+
+.team-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.team-item .team-content {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 30px;
+}
+.team-content h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.team-content span{
+    color: #5f2ded;
+    font-size: 16px;
+}
+.team-section {
+  background-color: #f2f4f7;
+  padding: 20px 0 50px 0;
+}

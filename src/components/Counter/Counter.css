@@ -1,0 +1,37 @@
+.main-counter{
+    background-color: #212EA0;
+    /* margin-bottom: 60px; */
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.counter-item{
+    text-align: center;
+    padding: 80px 0;
+    /* border-right: 1px solid #fff; */
+}
+.counter-item .title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.counter-item p {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #fff;
+}
+.counter4 .counter-item{
+    border-right: none;
+}
+.counter1 .counter-item{
+    margin-right: auto;
+    margin-left: 0;
+}

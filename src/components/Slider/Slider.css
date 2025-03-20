@@ -1,0 +1,40 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#08003ab3, #08003ab3), url(../../assets/hero.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+.hero1 {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#08003ab3, #08003ab3), url(../../assets/hero1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+.hero2 {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#08003ab3, #08003ab3), url(../../assets/hero2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+.hero h2, .hero1 h2, .hero2 h2{
+    font-size: 60px;
+    /* width: 80%; */
+    max-width: 800px;
+    margin: 0px auto 20px;
+    text-align: center;
+    padding-top: 220px;
+}
+.hero p, .hero1 p, .hero2 p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}

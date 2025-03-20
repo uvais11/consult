@@ -1,0 +1,134 @@
+.main-about {
+  display: flex;
+}
+.about-two {
+  margin-bottom: 100px;
+}
+.about-left1 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+about-right1 {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+.about-two-left {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+.about-img {
+  position: relative;
+  margin-left: 18px;
+  z-index: 9;
+  width: 380px;
+  border-radius: 190px 190px 0 0;
+  height: 493px;
+}
+.about-img img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  border-radius: 190px 190px 0 0;
+}
+.about-clients {
+  z-index: 9;
+  position: absolute;
+  bottom: 10px;
+  right: 70px;
+  padding: 23px 30px 30px 30px;
+  background-color: #00c39a;
+  border-radius: 16px;
+}
+.about-clients h4 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 13px;
+  color: #000;
+}
+.client-lists {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.client-lists li {
+  border-radius: 50%;
+  width: 45px;
+}
+.client-lists li img {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+.client-lists li + li {
+  margin-left: -10px;
+}
+.about-two-right {
+  margin-left: 70px;
+}
+
+.section-title {
+  margin-bottom: 28px;
+}
+.section-title span {
+  color: #000;
+  padding: 4px 15px;
+  display: inline-block;
+  background-color: #f5cf6f;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.section-title h2 {
+  color: #000;
+  width: 75%;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: -0.3px;
+  margin-bottom: 28px;
+}
+.section-title p {
+  color: #696969;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 75%;
+  margin-bottom: 40px;
+}
+.about-right-list {
+  margin-bottom: 50px;
+}
+.right-list p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+.main-btn {
+  display: inline-flex;
+  position: relative;
+  padding: 17px 40px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  color: #0f110f;
+  background-image: linear-gradient(81deg, #f5cf6f 16.42%, #00c39a 80.31%);
+  border-radius: 12px;
+}
+.right-list{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.right-list img{
+    margin-right: 20px;
+}
